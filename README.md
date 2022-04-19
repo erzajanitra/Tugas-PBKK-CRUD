@@ -1,7 +1,10 @@
 # Tugas CRUD : Studi Kasus Data Buku pada Perpustakaan
 
 ## Halaman List Data
+1. List Data Buku
 <img width="960" alt="list-data2" src="https://user-images.githubusercontent.com/75319371/163959501-5456f3d2-917c-496c-b966-3ead79797657.png">
+2. List Data Penulis Buku
+<img width="959" alt="penulis" src="https://user-images.githubusercontent.com/75319371/163976024-771c0168-4167-4962-83cd-41b3886b15a8.png">
 
 ## Halaman Tambah Data
 1. Tambah Data Buku Baru
@@ -32,7 +35,12 @@
 ## Halaman Detail Data
 <img width="956" alt="detail1" src="https://user-images.githubusercontent.com/75319371/163918830-6b06d0e7-05c9-4d0e-87a8-52b5e32c1cac.png">
 
-## Database Tabel Buku
+## Database 
+1. Tabel Buku
 <img width="960" alt="db buku" src="https://user-images.githubusercontent.com/75319371/163965433-41dd96d0-f528-4acd-838c-71bdb5209d72.png">
+2. Tabel Penulis Buku
+<img width="959" alt="db penulis" src="https://user-images.githubusercontent.com/75319371/163975857-b40372a1-72b7-417d-a71f-db7a067d5be0.png">
+
+
 
 
