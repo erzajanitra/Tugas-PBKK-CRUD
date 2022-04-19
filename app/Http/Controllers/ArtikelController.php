@@ -51,7 +51,7 @@ class ArtikelController extends Controller
 
         ]);
         Artikel::create($validatedData);
-        return redirect()->route('artikel.home')->with('sukses', 'Penambahan Pengguna berhasil');
+        return redirect()->route('artikel.home')->with('tambah_data', 'Penambahan Pengguna berhasil');
     }
 
     /**
