@@ -1,64 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Tugas CRUD : Studi Kasus Data Buku pada Perpustakaan
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Halaman List Data
+<img width="959" alt="list-data" src="https://user-images.githubusercontent.com/75319371/163918286-695c8e15-2e8c-4c4c-8872-47d7b01fa49f.png">
 
-## About Laravel
+## Halaman Tambah Data
+1. Tambah Data Buku Baru
+<img width="960" alt="tambah1" src="https://user-images.githubusercontent.com/75319371/163918383-9f9bf55c-9468-42b5-b765-a7b26c2b5010.png">
+<img width="958" alt="tambah2" src="https://user-images.githubusercontent.com/75319371/163918443-728fc7ae-8247-4aa5-b4c6-6a265e5c3006.png">
+2. Berhasil Menambah Data Buku Baru
+<img width="947" alt="tambah3" src="https://user-images.githubusercontent.com/75319371/163918547-bc0ed224-2f14-4511-8255-3d6e851e6954.png">
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Halaman Edit Data
+1. Edit Detail Buku
+<img width="960" alt="edit1" src="https://user-images.githubusercontent.com/75319371/163918607-aaac7172-bdc8-4330-b645-e5f51f56938a.png">
+2. Alert untuk Konfirmasi Perubahan Data
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<img width="960" alt="edit2" src="https://user-images.githubusercontent.com/75319371/163918633-ed70b5c3-16a3-4538-800b-ef5a9d40743d.png">
+3. Berhasil Mengedit Data
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img width="960" alt="edit3" src="https://user-images.githubusercontent.com/75319371/163918677-92fc4448-7011-4458-9ffa-9d38d8abf5f1.png">
 
-## Learning Laravel
+## Hapus Data
+1. Alert untuk Konfirmasi Penghapusan Data
+<img width="960" alt="hapus1" src="https://user-images.githubusercontent.com/75319371/163918771-7c848d43-b295-4550-b2ee-7f646abf465a.png">
+2. Berhasil Menghapus Data
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<img width="960" alt="hapus2" src="https://user-images.githubusercontent.com/75319371/163918795-cc056fd0-2f04-474f-b5ee-9a42c498f4ca.png">
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Halaman Detail Data
+<img width="956" alt="detail1" src="https://user-images.githubusercontent.com/75319371/163918830-6b06d0e7-05c9-4d0e-87a8-52b5e32c1cac.png">
