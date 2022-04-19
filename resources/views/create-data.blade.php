@@ -60,14 +60,7 @@
                                 Nama Penulis Salah
                             </div>
                             @enderror
-                            {{-- status buku --}}
-                            {{-- <div class="mt-3">
-                                <select name="status" id="status" class="form-control">
-                                    <option value="">Pilih Status Buku</option>
-                                    <option value="">Tersedia</option>
-                                    <option value="">Sedang Dipinjam</option>
-                                </select>
-                            </div> --}}
+                         
                              <div>
                                 <input class="mt-3 form-control form-control-lg @error('genre') is-invalid @enderror" name="genre" type="text"
                                        placeholder="Genre Buku" autofocus required>

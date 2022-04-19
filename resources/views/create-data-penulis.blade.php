@@ -60,14 +60,7 @@
                                 Tanggal Lahir Salah
                             </div>
                             @enderror
-                            {{-- status buku --}}
-                            {{-- <div class="mt-3">
-                                <select name="status" id="status" class="form-control">
-                                    <option value="">Pilih Status Buku</option>
-                                    <option value="">Tersedia</option>
-                                    <option value="">Sedang Dipinjam</option>
-                                </select>
-                            </div> --}}
+                         
                             <div>
                                 <input class="mt-3 form-control form-control-lg @error('about') is-invalid @enderror" name="about" type="text"
                                        placeholder="Biografi Penulis" autofocus required>
