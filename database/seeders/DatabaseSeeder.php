@@ -46,22 +46,22 @@ class DatabaseSeeder extends Seeder
         ]);
         Penulis::create([
             'nama' => 'Mark Twain',
-            'jenis kelamin' => 'Laki-laki',
-            'tanggal lahir' => 'Florida, 30 November 1985',
+            'jenisKelamin' => 'Laki-laki',
+            'tanggalLahir' => 'Florida, 30 November 1985',
             'about' => '
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio repellat ut dolorum illo hic repellendus earum, atque optio blanditiis officiis soluta rerum aut quia, molestiae eum numquam excepturi. Vero assumenda tempora reprehenderit iusto ad sint voluptatum veniam magnam at nemo alias, qui quos, officiis consequuntur, unde minima repellendus quo sunt ea ipsa eveniet! Eveniet quasi reprehenderit quia omnis. Qui non enim culpa maxime omnis? Enim earum facilis nobis ullam temporibus veritatis sequi autem? Impedit velit nihil iusto eum voluptas cupiditate quasi unde ut, consequuntur animi, commodi ratione sequi accusantium voluptatibus blanditiis obcaecati corrupti sint perferendis distinctio similique labore? Et!'
         ]);
         Penulis::create([
             'nama' => 'Jules Verne',
-            'jenis kelamin' => 'Laki-laki',
-            'tanggal lahir' => 'Canada, 30 November 1885',
+            'jenisKelamin' => 'Laki-laki',
+            'tanggalLahir' => 'Canada, 30 November 1885',
             'about' => '
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio repellat ut dolorum illo hic repellendus earum, atque optio blanditiis officiis soluta rerum aut quia, molestiae eum numquam excepturi. Vero assumenda tempora reprehenderit iusto ad sint voluptatum veniam magnam at nemo alias, qui quos, officiis consequuntur, unde minima repellendus quo sunt ea ipsa eveniet! Eveniet quasi reprehenderit quia omnis. Qui non enim culpa maxime omnis? Enim earum facilis nobis ullam temporibus veritatis sequi autem? Impedit velit nihil iusto eum voluptas cupiditate quasi unde ut, consequuntur animi, commodi ratione sequi accusantium voluptatibus blanditiis obcaecati corrupti sint perferendis distinctio similique labore? Et!'
         ]);
         Penulis::create([
             'nama' => 'Mark Manson',
-            'jenis kelamin' => 'Laki-laki',
-            'tanggal lahir' => 'Jakarta, 18 November 1987',
+            'jenisKelamin' => 'Laki-laki',
+            'tanggalLahir' => 'Jakarta, 18 November 1987',
             'about' => '
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio repellat ut dolorum illo hic repellendus earum, atque optio blanditiis officiis soluta rerum aut quia, molestiae eum numquam excepturi. Vero assumenda tempora reprehenderit iusto ad sint voluptatum veniam magnam at nemo alias, qui quos, officiis consequuntur, unde minima repellendus quo sunt ea ipsa eveniet! Eveniet quasi reprehenderit quia omnis. Qui non enim culpa maxime omnis? Enim earum facilis nobis ullam temporibus veritatis sequi autem? Impedit velit nihil iusto eum voluptas cupiditate quasi unde ut, consequuntur animi, commodi ratione sequi accusantium voluptatibus blanditiis obcaecati corrupti sint perferendis distinctio similique labore? Et!'
         ]);

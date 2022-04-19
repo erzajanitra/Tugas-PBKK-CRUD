@@ -16,8 +16,8 @@ class CreatePenulisTable extends Migration
         Schema::create('penulis', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->string('jenis kelamin');
-            $table->string('tanggal lahir');
+            $table->string('jenisKelamin');
+            $table->string('tanggalLahir');
             $table->mediumText('about');
             $table->timestamps();
         });

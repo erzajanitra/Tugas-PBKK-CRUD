@@ -30,3 +30,11 @@ Route::group(['prefix' => 'artikel', 'as' => 'artikel.'], function(){
 
 });
 
+Route::group(['prefix' => 'penulis', 'as' => 'penulis.'], function(){
+    Route::get('/', [ArtikelController::class, 'index'])->name('list');
+    // Route::get('/', [PengumumanController::class, 'index'])->name('home');
+   
+
+});
+
+

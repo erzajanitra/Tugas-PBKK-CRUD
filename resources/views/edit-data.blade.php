@@ -91,7 +91,7 @@
                         </form>
                         <br>
                         <div class="mt-4 text-center submit-btn">
-                            <a href="{{ route('artikel.home') }}" class="btn btn-secondary" onclick="return confirm('Apakah Anda Yakin Kembali ke Halaman Utama ?');">Kembali</a>
+                            <a href="{{ route('artikel.home') }}" class="btn btn-secondary" onclick="return confirm('Apakah Anda Yakin Kembali ke Halaman List Data Buku ?');">Kembali</a>
                             <button type="submit" class="btn btn-primary" form="form-login">Simpan</button>
                         </div>
                     </div>

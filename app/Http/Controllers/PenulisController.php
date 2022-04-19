@@ -15,6 +15,10 @@ class PenulisController extends Controller
     public function index()
     {
         //
+        $data = Penulis::all();
+        return view('list-penulis', [
+            'data' => $data
+        ]);
     }
 
     /**

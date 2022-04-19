@@ -14,7 +14,7 @@
 @section('container')
     {{-- <div class="container"> --}}
         <div>
-        <center><h3 class="mt-5">Data Buku Perpustakaan</h3></center>
+        <center><h3 class="mt-5">Data Penulis Buku</h3></center>
 
         <a href="{{ route('artikel.tambah-data') }}" class="btn btn-primary mt-4 "><i class="fa fa-plus"></i> Tambah Buku Baru</a>
 
@@ -24,7 +24,7 @@
             <div class="alert alert-success alert-dismissible fade show" role="alert" style="width: 100%; height:auto;">
                 <strong><i class="fa fa-check-circle"></i> Berhasil!</strong>
                 <br>
-                    Penambahan Buku Berhasil
+                    Penambahan Penulis Berhasil
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                 {{-- <button type="button" class="btn-close" data-bs-dismiss="alert"></button> --}}
                 </button>
@@ -35,7 +35,7 @@
             <div class="alert alert-success alert-dismissible fade show" role="alert" style="width: 100%; height:auto;">
                 <strong><i class="fa fa-check-circle"></i> Berhasil!</strong>
                 <br>
-                    Pengeditan Buku Berhasil
+                    Pengeditan Penulis Berhasil
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                 </button>
             </div>
@@ -45,7 +45,7 @@
             <div class="alert alert-success alert-dismissible fade show" role="alert" style="width: 100%; height:auto;">
                 <strong><i class="fa fa-check-circle"></i> Berhasil!</strong>
                 <br>
-                    Penghapusan Buku Berhasil
+                    Penghapusan Penulis Berhasil
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                 </button>
             </div>
@@ -54,11 +54,11 @@
             <thead class="thead-dark">
                 <tr>
                     <th>ID</th>
-                    <th>Judul Buku</th>
-                    <th>Tahun Terbit</th>
-                    <th>Penulis</th>
-                    <th>Genre</th>
-                    <th>Action</th>
+                    <th>Nama Penulis</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Biography</th>
+                    {{-- <th>Action</th> --}}
                 </tr>
             </thead>
             @php
@@ -67,12 +67,12 @@
             @foreach($data as $d)
             <tr>
                 <td>{{ $it }}</td>
-                <td>{{ $d->judul }}</td>
-                <td>{{ $d->tahun }}</td>
-                <td>{{ $d->penulis }}</td>
-                <td>{{ $d->genre }}</td>             
+                <td>{{ $d->nama }}</td>
+                <td>{{ $d->jenisKelamin }}</td>
+                <td>{{ $d->tanggalLahir }}</td>
+                <td>{{ $d->about }}</td>             
                 {{-- <td>{{ $d->isi }}</td> --}}
-                <td>
+                {{-- <td>
                     <form onsubmit="return confirm('Apakah Anda Yakin Menghapus Data ini ?');" action="{{ route('artikel.destroy', $d->id) }}" method="POST">
                         <a href="{{ Route('artikel.edit', $d->id) }}" class="btn btn-sm btn-primary shadow"><i class="fa fa-edit"></i> Edit</a>
                         |
@@ -82,7 +82,7 @@
                         |
                         <a href="{{ route('artikel.show' , $d->id) }}" class="btn btn-sm btn-secondary shadow"><i class="fa fa-info-circle"></i> Detail</a>
                     </form>
-                </td>
+                </td> --}}
             </tr>
             @php
                 $it+=1;
