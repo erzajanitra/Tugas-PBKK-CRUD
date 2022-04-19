@@ -27,7 +27,7 @@
                             <div class="alert alert-danger">{{ Session::get('wrongUsername') }}</div>
                         @endif
 
-                        <form id="form-login" action="{{ route('artikel.update', $data->id) }}" method="post" onsubmit="return confirm('Apakah Anda Yakin Simpan Perubahan Data ?');">
+                        <form id="form-login" action="{{ route('penulis.update-penulis', $data->id) }}" method="post" onsubmit="return confirm('Apakah Anda Yakin Simpan Perubahan Data ?');">
                             @csrf
                             {{-- nama penulis --}}
                             <div>

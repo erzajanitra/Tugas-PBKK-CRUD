@@ -82,7 +82,7 @@
                         {{-- </form> --}}
                         <br>
                         <div class="mt-4 text-center submit-btn">
-                            <a href="{{ route('artikel.home') }}" class="btn btn-secondary">Kembali</a>
+                            <a href="{{ route('penulis.list-penulis') }}" class="btn btn-secondary">Kembali</a>
                         </div>
                     </div>
                 </div>
