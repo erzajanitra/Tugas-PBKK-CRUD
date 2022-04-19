@@ -1,15 +1,18 @@
 # Tugas CRUD : Studi Kasus Data Buku pada Perpustakaan
 
 ## Halaman List Data
-<img width="959" alt="list-data" src="https://user-images.githubusercontent.com/75319371/163918286-695c8e15-2e8c-4c4c-8872-47d7b01fa49f.png">
+1. List Data Buku
+<img width="960" alt="list-data2" src="https://user-images.githubusercontent.com/75319371/163959501-5456f3d2-917c-496c-b966-3ead79797657.png">
+2. List Data Penulis Buku
+<img width="959" alt="penulis" src="https://user-images.githubusercontent.com/75319371/163976024-771c0168-4167-4962-83cd-41b3886b15a8.png">
 
 ## Halaman Tambah Data
 1. Tambah Data Buku Baru
 <img width="960" alt="tambah1" src="https://user-images.githubusercontent.com/75319371/163918383-9f9bf55c-9468-42b5-b765-a7b26c2b5010.png">
 <img width="958" alt="tambah2" src="https://user-images.githubusercontent.com/75319371/163918443-728fc7ae-8247-4aa5-b4c6-6a265e5c3006.png">
 2. Berhasil Menambah Data Buku Baru
+<img width="946" alt="tambah5" src="https://user-images.githubusercontent.com/75319371/163959730-ad1822c8-f1cc-4104-988c-92a846d18646.png">
 
-<img width="942" alt="tambah4" src="https://user-images.githubusercontent.com/75319371/163923213-b1546351-b827-4071-a986-9e0e4dbd8781.png">
 
 ## Halaman Edit Data
 1. Edit Detail Buku
@@ -18,15 +21,26 @@
 
 <img width="960" alt="edit2" src="https://user-images.githubusercontent.com/75319371/163918633-ed70b5c3-16a3-4538-800b-ef5a9d40743d.png">
 3. Berhasil Mengedit Data
+<img width="957" alt="edit new" src="https://user-images.githubusercontent.com/75319371/163966186-e89967d3-ea18-4e51-a261-322ccca83936.png">
 
-<img width="960" alt="edit3" src="https://user-images.githubusercontent.com/75319371/163918677-92fc4448-7011-4458-9ffa-9d38d8abf5f1.png">
 
 ## Hapus Data
 1. Alert untuk Konfirmasi Penghapusan Data
-<img width="960" alt="hapus1" src="https://user-images.githubusercontent.com/75319371/163918771-7c848d43-b295-4550-b2ee-7f646abf465a.png">
-2. Berhasil Menghapus Data
+<img width="943" alt="hapus alert1" src="https://user-images.githubusercontent.com/75319371/163961549-0986c6cb-31d0-4221-9957-09c898381108.png">
 
-<img width="960" alt="hapus2" src="https://user-images.githubusercontent.com/75319371/163918795-cc056fd0-2f04-474f-b5ee-9a42c498f4ca.png">
+2. Berhasil Menghapus Data
+<img width="941" alt="hapus alert2" src="https://user-images.githubusercontent.com/75319371/163964786-6d04cb5b-456a-4a56-90e5-723d43631d47.png">
+
 
 ## Halaman Detail Data
 <img width="956" alt="detail1" src="https://user-images.githubusercontent.com/75319371/163918830-6b06d0e7-05c9-4d0e-87a8-52b5e32c1cac.png">
+
+## Database 
+1. Tabel Buku
+<img width="960" alt="db buku" src="https://user-images.githubusercontent.com/75319371/163965433-41dd96d0-f528-4acd-838c-71bdb5209d72.png">
+2. Tabel Penulis Buku
+<img width="959" alt="db penulis" src="https://user-images.githubusercontent.com/75319371/163975857-b40372a1-72b7-417d-a71f-db7a067d5be0.png">
+
+
+
+
