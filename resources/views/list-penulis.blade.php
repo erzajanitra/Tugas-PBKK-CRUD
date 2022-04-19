@@ -16,7 +16,7 @@
         <div>
         <center><h3 class="mt-5">Data Penulis Buku</h3></center>
 
-        <a href="{{ route('artikel.tambah-data') }}" class="btn btn-primary mt-4 "><i class="fa fa-plus"></i> Tambah Buku Baru</a>
+        <a href="{{ route('penulis.tambah-data-penulis') }}" class="btn btn-primary mt-4 "><i class="fa fa-plus"></i> Tambah Penulis Baru</a>
 
         <br/>
         <br/>
@@ -58,7 +58,7 @@
                     <th>Jenis Kelamin</th>
                     <th>Tanggal Lahir</th>
                     <th>Biography</th>
-                    {{-- <th>Action</th> --}}
+                    <th>Action</th>
                 </tr>
             </thead>
             @php
@@ -72,17 +72,17 @@
                 <td>{{ $d->tanggalLahir }}</td>
                 <td>{{ $d->about }}</td>             
                 {{-- <td>{{ $d->isi }}</td> --}}
-                {{-- <td>
-                    <form onsubmit="return confirm('Apakah Anda Yakin Menghapus Data ini ?');" action="{{ route('artikel.destroy', $d->id) }}" method="POST">
-                        <a href="{{ Route('artikel.edit', $d->id) }}" class="btn btn-sm btn-primary shadow"><i class="fa fa-edit"></i> Edit</a>
+                <td>
+                    <form onsubmit="return confirm('Apakah Anda Yakin Menghapus Data ini ?');" action="{{ route('penulis.destroy-penulis', $d->id) }}" method="POST">
+                        <a href="{{ Route('penulis.edit-penulis', $d->id) }}" class="btn btn-sm btn-primary shadow"><i class="fa fa-edit"></i> Edit</a>
                         |
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-sm btn-danger shadow"><i class="fa fa-trash"></i> Delete</button>
                         |
-                        <a href="{{ route('artikel.show' , $d->id) }}" class="btn btn-sm btn-secondary shadow"><i class="fa fa-info-circle"></i> Detail</a>
+                        <a href="{{ route('penulis.show-penulis' , $d->id) }}" class="btn btn-sm btn-secondary shadow"><i class="fa fa-info-circle"></i> Detail</a>
                     </form>
-                </td> --}}
+                </td>
             </tr>
             @php
                 $it+=1;

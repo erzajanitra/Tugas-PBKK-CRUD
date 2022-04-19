@@ -29,6 +29,7 @@ class PenulisController extends Controller
     public function create()
     {
         //
+        return view('create-data-penulis');
     }
 
     /**
@@ -40,6 +41,16 @@ class PenulisController extends Controller
     public function store(Request $request)
     {
         //
+        $validatedData = $request->validate([
+            'nama' => 'required|max:100',
+            // 'isi' => 'required',
+            'jenisKelamin' => 'required',
+            'tanggalLahir' => 'required',
+            'about' => 'required',
+
+        ]);
+        Penulis::create($validatedData);
+        return redirect()->route('penulis.list-penulis')->with('tambah_data', 'Penambahan Pengguna berhasil');
     }
 
     /**
@@ -48,9 +59,13 @@ class PenulisController extends Controller
      * @param  \App\Models\Penulis  $penulis
      * @return \Illuminate\Http\Response
      */
-    public function show(Penulis $penulis)
+    public function show($id)
     {
         //
+        $data = Penulis::where('id', $id)->first();
+        return view('detail-data-penulis', [
+            'data' => $data
+        ]);
     }
 
     /**
@@ -59,9 +74,13 @@ class PenulisController extends Controller
      * @param  \App\Models\Penulis  $penulis
      * @return \Illuminate\Http\Response
      */
-    public function edit(Penulis $penulis)
+    public function edit($id)
     {
         //
+        $data = Penulis::where('id', $id)->first();
+        return view('edit-data-penulis', [
+            'data' => $data
+        ]);
     }
 
     /**
@@ -71,9 +90,20 @@ class PenulisController extends Controller
      * @param  \App\Models\Penulis  $penulis
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Penulis $penulis)
+    public function update(Request $request, $id)
     {
         //
+        $validatedData = $request->validate([
+            'nama' => 'required|max:100',
+            // 'isi' => 'required',
+            'jenisKelamin' => 'required',
+            'tanggalLahir' => 'required',
+            'about' => 'required',
+
+        ]);
+        $penulis = Penulis::findOrFail($id);
+        $penulis->update($validatedData);
+        return redirect()->route('penulis.list-penulis')->with('edit_data', 'Pengeditan Data berhasil');
     }
 
     /**
@@ -82,8 +112,11 @@ class PenulisController extends Controller
      * @param  \App\Models\Penulis  $penulis
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Penulis $penulis)
+    public function destroy($id)
     {
         //
+        $penulis = Penulis::findOrFail($id);
+        $penulis->delete();
+		return redirect()->route('penulis.list-penulis')->with('hapus_data', 'Penghapusan data berhasil');
     }
 }

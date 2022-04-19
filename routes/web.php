@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 use App\Http\Controllers\ArtikelController;
+use App\Http\Controllers\PenulisController;
+
 
 Route::group(['prefix' => 'artikel', 'as' => 'artikel.'], function(){
     Route::get('/', [ArtikelController::class, 'index'])->name('home');
@@ -31,8 +33,14 @@ Route::group(['prefix' => 'artikel', 'as' => 'artikel.'], function(){
 });
 
 Route::group(['prefix' => 'penulis', 'as' => 'penulis.'], function(){
-    Route::get('/', [ArtikelController::class, 'index'])->name('list');
+    Route::get('/', [PenulisController::class, 'index'])->name('list-penulis');
     // Route::get('/', [PengumumanController::class, 'index'])->name('home');
+    Route::get('/tambah-penulis', [PenulisController::class, 'create'])->name('tambah-data-penulis');
+    Route::post('/simpan-penulis', [PenulisController::class, 'store'])->name('buat-data-penulis');
+    Route::get('/edit-penulis/{id}', [PenulisController::class, 'edit'])->name('edit-penulis');
+    Route::post('/update-penulis/{id}', [PenulisController::class, 'update'])->name('update-penulis');
+    Route::delete('/delete-penulis/{id}', [PenulisController::class, 'destroy'])->name('destroy-penulis');
+    Route::get('/detail-penulis/{id}', [PenulisController::class, 'show'])->name('show-penulis');
    
 
 });
