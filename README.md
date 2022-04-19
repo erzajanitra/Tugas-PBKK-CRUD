@@ -8,7 +8,8 @@
 <img width="960" alt="tambah1" src="https://user-images.githubusercontent.com/75319371/163918383-9f9bf55c-9468-42b5-b765-a7b26c2b5010.png">
 <img width="958" alt="tambah2" src="https://user-images.githubusercontent.com/75319371/163918443-728fc7ae-8247-4aa5-b4c6-6a265e5c3006.png">
 2. Berhasil Menambah Data Buku Baru
-<img width="947" alt="tambah3" src="https://user-images.githubusercontent.com/75319371/163918547-bc0ed224-2f14-4511-8255-3d6e851e6954.png">
+
+<img width="942" alt="tambah4" src="https://user-images.githubusercontent.com/75319371/163923213-b1546351-b827-4071-a986-9e0e4dbd8781.png">
 
 ## Halaman Edit Data
 1. Edit Detail Buku
